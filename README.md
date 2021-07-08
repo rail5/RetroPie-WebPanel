@@ -4,6 +4,9 @@ A Simple PHP Control Panel for RetroPie
 ## Warning
 This relies heavily on **shell_exec()** commands, and is for that reason insecure. This web panel should **never** be public-internet-facing.
 
+## Photo
+![Photo](preview.png)
+
 ## Features
 A plain web panel (/panel.php) which:
  - displays "Now Playing" and "Last Played" games
