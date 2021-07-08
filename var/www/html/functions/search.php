@@ -35,7 +35,7 @@ $platform = escapeshellcmd($platform);
 
 if ($platform == "all") {
 	//do a search on all platforms
-	echo "platform 0";
+	//not implemented
 } else {
 	$systems = shell_exec('ls /home/pi/RetroPie/roms/');
 	$acceptableinput = explode(PHP_EOL, $systems);
