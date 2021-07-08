@@ -17,6 +17,7 @@ A plain web panel (/panel.php) which:
  - espeak (For text-to-speech)
  - aplay (For text-to-speech)
  - amixer (For volume control)
+
 As is indicated in /etc/sudoers, www-data must be given permissions to execute commands as the pi user without password verification, in order to perform soft resets or to launch games. As is indicated in /etc/group, www-data has also been added to the "audio" group for TTS, though that command could also be run as a *sudo -u pi* if you like.
 
 ## Background
